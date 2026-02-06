@@ -25,11 +25,11 @@ print(df_excel)
 df_excel2 = pd.read_excel(r'/Users/sudipbhandari/Desktop/Python_learning/git-practice/world_population_excel_workbook.xlsx', sheet_name = 'Sheet1')
 print(df_excel2)
 
-#Show all the data files or all elements
+#Show all the data files or all elements for rows
 pd.set_option('display.max.rows', 235)
 print(df_excel)
 
-#Show all the columns of jsonfile
+#Show all the columns of jsonfile for column
 pd.set_option('display.max.column', 50)
 print(df_json)
 
@@ -59,3 +59,4 @@ df_excel['Country'] = df_excel['Country'].str.strip()        # remove spaces
 df_excel['Country'] = df_excel['Country'].str.title()        # normalize capitalization
 
 print(df_excel[df_excel['Country'] == 'Uzbekistan'])
+
