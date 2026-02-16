@@ -33,6 +33,6 @@ print(agg_by_rating)
 group_by_column = df.groupby(['Base Flavor', 'Liked']).mean(numeric_only=True)
 print(group_by_column)
 
-#HIgh level overview of aggregations
+#HIgh level overview of aggregations using describe
 group_by_describe = df.groupby('Base Flavor').describe()
 print(group_by_describe)
