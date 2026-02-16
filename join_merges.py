@@ -64,6 +64,6 @@ print(concat_df3)
 concat_df3 = pd.concat([df1,df2], join = 'outer', axis =1)
 print(concat_df3)
 
-#Append the dataframe
-append_df1 = df1.append(df2)
-print(append_df1)
+#Append the dataframe not in extinsion anymore in this version
+#append_df1 = df1.append(df2)
+#print(append_df1)
