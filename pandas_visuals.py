@@ -40,8 +40,8 @@ df.plot(kind= 'scatter', x = 'Texture Rating', y = 'Overall Rating', s = 100, c 
 plt.show()
 
 #Histogram
-df.plot.hist()
-plt.show(bin = 20 )
+df.plot.hist(bin = 20)
+plt.show()
 
 #Box[lot]
 df.plot.box()
